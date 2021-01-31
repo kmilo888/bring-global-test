@@ -1,6 +1,7 @@
 package bindings;
 
 import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
@@ -84,4 +85,35 @@ public class Itinerary_ReturnTrip {
     public void i_verify_i_am_on_the_page(String string) {
     }
 
+    @When("I change the {string} date to {string} on the lateral scroll")
+    public void iChangeTheDepartDateToOnTheLateralScroll(int arg0, int arg1, int arg2) {
+    }
+
+    @And("I select the first option {string} flight")
+    public void iSelectTheFirstOptionDepartFlight() {
+    }
+
+    @And("I select the {string} {string} fare")
+    public void iSelectTheDepartValueFare() {
+    }
+
+    @And("I fill the Adult Passenger {string} information with {string} : {string}, {string} : {string} and {string} : {string}")
+    public void iFillTheAdultPassengerInformation(int arg0) {
+    }
+
+    @And("I fill the Child Passenger {string} information with {string} : {string} and {string} : {string}")
+    public void iFillTheChildPassengerInformation(int arg0) {
+    }
+
+    @And("I select {string} consecutive seats for each Passenger")
+    public void iSelectConsecutiveSeatsForEachPassenger(int arg0) {
+    }
+
+    @When("I check the {string} checkbox")
+    public void iCheckTheAddForAllPassengersSmallBagOnlyCheckbox(int arg0) {
+    }
+
+    @And("I verify my itinerary was added to the Shopping Cart")
+    public void iVerifyMyItineraryWasAddedToTheShoppingCart() {
+    }
 }
