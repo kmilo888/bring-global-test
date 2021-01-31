@@ -14,4 +14,7 @@ This repository includes the 2 exercises for the automated tests on Web and Mobi
 
 ### Mobile
 
+- Developed on Java, using the IntelliJ IDE.
+- Test Cases defined on BDD Cucumber feature files, located in the 'features' folder.
+- Step definitions defined on the 'bindings' package
 ---UNDER CONSTRUCTION---
