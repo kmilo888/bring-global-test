@@ -25,3 +25,5 @@ hs_err_pid*
 # IntelliJ files
 Web/.DS_Store
 Web/.idea
+Mobile/.DS_Store
+Mobile/.idea
